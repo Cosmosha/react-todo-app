@@ -6,7 +6,9 @@ import { AiFillEdit } from 'react-icons/ai';
 
 import styles from '../style/TodoItem.module.css';
 
-const TodoItem = ({ itemProp, handleChange, delTodo, setUpdate }) => {
+const TodoItem = ({
+  itemProp, handleChange, delTodo, setUpdate,
+}) => {
   const [editing, setEditing] = useState(false);
   const completedStyle = {
     fontStyle: 'italic',

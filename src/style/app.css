@@ -134,6 +134,7 @@ About route
   div.wrapper h1 {
     font-size: 6rem;
   }
+
   .about {
     display: grid;
     grid-template-columns: 200px minmax(0, 1fr);
@@ -141,7 +142,7 @@ About route
 }
 
 /* ==========================
-Sidebar navigation. 
+Sidebar navigation.
 ======================== */
 
 .navbar {
@@ -174,10 +175,12 @@ button {
   max-width: 290px;
   z-index: 9;
   font-size: 18px;
-  box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%),
+  box-shadow:
+    0 10px 15px -3px rgb(46 41 51 / 8%),
     0 4px 6px -2px rgb(71 63 79 / 16%);
   transform: translateX(-100px);
   transition: transform ease-in-out 0.2s;
+
   /* transition: width ease 0.2s; */
 }
 

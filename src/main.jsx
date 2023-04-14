@@ -11,5 +11,5 @@ root.render(
     <BrowserRouter>
       <TodoApp />
     </BrowserRouter>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
